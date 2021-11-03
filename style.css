@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(245, 245, 227);
 }
 
 .main-game {
@@ -17,38 +17,54 @@ body {
         'verde vermelho'
         'amarelo azul';
     gap: 10px;
-    border: 1px solid blueviolet;
-    background-color: white;
-    border-radius: 2%;
-    border: 10px solid white;
-    width: 700px;
-    height: 700px;
+    background-color: black;
+    border-radius: 100%;
+    border: 2vh solid black;
+    width: 65vh;
+    height: 65vh;
 }
 
 .green {
     grid-area: verde;
-    background-color: green;
-    border-radius: 5%
+    background-color: rgb(0, 128, 0);
+    filter:brightness(50%);
+    border-top-left-radius: 100%;
 }
 
 .red {
     grid-area: vermelho;
-    background-color: red;
-    border-radius: 5%
+    background-color: rgb(255, 0, 0);
+    filter:brightness(50%);
+    border-top-right-radius: 100%;
 }
 
 .yellow {
     grid-area: amarelo;
-    background-color: yellow;
-    border-radius: 5%
+    background-color: rgb(255, 255, 0);
+    filter:brightness(50%);
+    border-bottom-left-radius: 100%;
 }
 
 .blue {
     grid-area: azul;
-    background-color: blue;
-    border-radius: 5%
+    background-color: rgb(0, 0, 255);
+    filter:brightness(50%);
+    border-bottom-right-radius: 100%;
+}
+
+.ball{
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    font-size: large;
+    color: white;
 }
 
 .selected {
-    filter:brightness(50%);
+    filter:brightness(100%);
 }

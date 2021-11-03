@@ -62,28 +62,27 @@ let checkOrder = () => {
         }
     }
     if(clikedOrder.length == order.length) {
-        alert(`Pontuação ${score}\n Você acertou! para o próximo nível`);
         nextLevel();
     }
 }
 
 let gameOver = () => {
-    alert(`Game Over! pontuação: ${score}.`);
+    alert(`Game Over! Score final: ${score-1}.`);
     order = [];
     clikedOrder = [];
     playGame();
 }
 
 let nextLevel = () => {
+    document.getElementById("points").innerHTML=`Score: ${score}`
     score++;
     shuffleOrder();
     sequence();
 }
 
 let playGame = () => {
-    alert('Bem vindo ao Genius!');
+    alert("Start game")
     score = 0;
-
     nextLevel();
 }
 
@@ -93,5 +92,3 @@ yellow.onclick = () => click(2);
 blue.onclick = () => click(3);
 
 playGame();
-
-
