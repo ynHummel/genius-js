@@ -5,5 +5,5 @@
 
 </div>
 
-Jogo da memória tipo Genius. Projeto feito para praticar um pouco de Javascript Vanilla.
+Jogo da memória tipo Genius, projeto feito para praticar um pouco de Javascript Vanilla.
 Para começar a jogar basta abrir o arquivo index.html.
