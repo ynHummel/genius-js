@@ -1,3 +1,9 @@
 # Genius JS
+<div align="center">
 
-Jogo da memória Genius, onde os botões piscam e você tem que apertar logo em seguida na sequencia correta.
+  ![Jogo Genius](./assets/gns-animated.gif)
+
+</div>
+
+Jogo da memória tipo Genius. Projeto feito para praticar um pouco de Javascript Vanilla.
+Para começar a jogar basta abrir o arquivo index.html.
